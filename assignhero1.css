@@ -212,3 +212,91 @@ a {
 .date {
     margin-top: 5px;
 }
+
+/*section-4*/
+.mini {
+    background-color: #f9f9fa;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.focus-heading {
+    text-align: center;
+    color: #161616;
+    font-weight: bold;
+    font-size: 42px;
+
+}
+
+.praise-vertex {
+    text-align: center;
+    color: #afadad;
+    font-size: 15px;
+
+
+}
+
+.get-button {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.focus-img {
+    border-radius: 20px;
+    width: 700px;
+    height: 250px;
+    gap: 20px;
+}
+
+/*section-form*/
+.formpart {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.form-heading {
+    color: #0a0a0a;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+
+.email-name-message {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.name {
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.touch {
+    margin-top: 10px;
+}
+
+input[type="email"],
+input[type="name"] {
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+input[type="text"] {
+    border-radius: 10px;
+}
