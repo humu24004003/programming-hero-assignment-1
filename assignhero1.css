@@ -300,3 +300,45 @@ input[type="name"] {
 input[type="text"] {
     border-radius: 10px;
 }
+
+.logo-part {
+    background-color: #f9f9fa;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-heading {
+    color: #4E47FF;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-style: bold;
+    margin-bottom: 5px;
+}
+
+.logo-praise {
+    width: 450px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+    color: #afadad;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 0px 20px;
+    margin-top: 5px;
+}
+
+.footer-link {
+    color: #afadad;
+
+    font-size: 16px;
+}
