@@ -140,3 +140,75 @@ a {
     font-size: 14px;
     color: #6b6b6b;
 }
+
+/*section-user*/
+.user-part {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.user-heading {
+    color: #252432;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+}
+
+.user-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 0px 40px;
+    /* 🔥 equal gap */
+    margin-top: 50px;
+}
+
+.star-bottom {
+    color: #252432;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.user-comment {
+    color: rgb(87, 84, 84);
+    font-size: 15px;
+
+
+}
+
+.user-card-1 {
+    background-color: #eff1f1;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.pic-name {
+    display: flex;
+    align-items: center;
+
+}
+
+.review-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.name-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 0px;
+}
+
+.date {
+    margin-top: 5px;
+}
