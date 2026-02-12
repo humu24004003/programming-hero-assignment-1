@@ -1,0 +1,106 @@
+.raleway-bobo {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+body {
+    background-color: #e0e5f0;
+}
+
+.head-styles {
+    background-image: url("Hero-bg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    /* full viewport height */
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #4E47FF;
+
+}
+
+.button-style {
+    background-color: #4E47FF;
+    color: rgb(242, 235, 235);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner-styles {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 240px 267px 207px;
+}
+
+.banner-heading-styles {
+    color: #252432;
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
+    width: 900px;
+}
+
+.focus {
+    align-items: center;
+}
+
+/*section 2*/
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 140px;
+}
+
+.action-div {
+    height: 50px;
+    margin-right: 100px;
+}
+
+.action {
+    color: #252432;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.para-action {
+    color: #8987A1;
+    font-size: 24px;
+}
+
+.launch-button {
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+}
+
+.wc-mini {
+    width: 403px;
+    height: 328px;
+    border-radius: 10px;
+}
