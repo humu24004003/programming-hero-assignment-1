@@ -104,3 +104,39 @@ a {
     height: 328px;
     border-radius: 10px;
 }
+
+/*section-purple*/
+.stats-section {
+    background-color: #cdd0df;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 60px 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.stats-heading {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1f1f2e;
+    margin-bottom: 10px;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 0px 80px;
+    /* 🔥 equal gap */
+}
+
+.stat h1 {
+    font-size: 52px;
+    font-weight: 800;
+    color: #4E47FF;
+    margin-bottom: 5px;
+}
+
+.stat p {
+    font-size: 14px;
+    color: #6b6b6b;
+}
